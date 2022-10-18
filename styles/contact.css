@@ -16,11 +16,13 @@ header{
 
 #title{
     flex-direction: column;
-    line-height: 7px;   
+    line-height: 7px;  
+    
 }
 
 #title:hover{
     color: rgb(15, 187, 218);
+    transition: 0.3s; 
 }
 
 li{
@@ -67,6 +69,7 @@ main{
     margin-right: 40px;
     padding: 80px 100px;
     border-radius: 15px;
+    box-shadow: -05px 10px rgb(15, 187, 218, 0.7);
 }
 
 p{
